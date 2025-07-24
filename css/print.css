@@ -1,0 +1,45 @@
+body {
+	background: none;
+	font: 0.8764em "Trebuchet MS", Arial, Helvetica, Verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#container {
+	background: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 800px;
+}
+
+div#header {
+	background: none;
+	height: 100px;
+	margin: 0 auto;
+	position: absolute;
+	text-indent: -10000px;
+	top: 0px;
+	width: 400px;
+}
+
+	div#header img { display: inline }
+
+div#navigation {
+	background: #c0d772;
+	color: #000;
+	left: 0px;
+	position: absolute;
+	top: 160px;	
+	width: 156px;
+}
+
+	div#navigation ul, li, a {
+		background: #c0d772;
+		color: #000;
+	}
+	
+	div#navigation li a {
+		color: #000;
+	}

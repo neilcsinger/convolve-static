@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Convolve, Inc. and Input Shaping&reg; - FAQ about Input Shaping</title>
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Convolve, Inc. and Input Shaping&reg;" />
+	<meta name="keywords" content="convolve, input shaping, vibrations" />
+	<meta name="viewport" content="width=800" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/faq.css" />
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		Convolve<br />
+		<img src="images/print_header.gif" width="400" height="100" alt="Convolve" />
+	</div>
+	
+	<div id="navigation">
+		<ul>
+			<li><a href="index.php.html">Home Page</a></li>
+			<li><a href="products.php.html">Products</a></li>
+			<li><a href="input_shaping.php.html">Input Shaping</a></li>
+			<li><a href="services.php.html">Services</a></li>
+			<li><a href="motion_controllers.php.html">Supported Motion Controllers</a></li>
+			<li><a href="customer_applications.php.html">Customer Applications</a></li>
+			<li><a href="design_tool.php.html">Design Tool</a></li>
+			<li><a href="videos.php.html">Technology Videos</a></li>
+			<li><a href="faq.php.html">FAQ</a></li>
+			<li><a href="contact.php.html">Contact Us</a></li>
+		</ul>
+	</div>
+	
+	<div class="spacer"></div>
+
+	<div id="content">
+		<p id="slogan">Optimized Trajectories for Motion Control</p>
+
+		<h2>FAQ about Input Shaping</h2>
+		<div id="faq">
+			<ul>
+			<li>
+				<p class="question">How is Input Shaping&reg; different from conventional low pass or notch filtering?</p>
+					Conventional low pass filters and notch filters are designed using frequency domain techniques. They will suppress a steady state sinusoidal frequency or range of frequencies but they can have unexpected or undesirable behavior during input transients. An Input Shaper&trade; is designed using optimization theory to create a custom time domain input with both time and frequency domain constraints. It is designed specifically to suppress vibration excited by motion transients.
+			</li>
+			<li>
+				<p class="question">Can an Input Shaper&trade; be designed without an analytical model of the closed loop system?</p>
+					Yes, this is one of the benefits of Input Shaping&trade;. The only information needed to design an Input Shaper is the frequency or frequencies of the vibrations. This information is usually collected experimentally.
+			</li>
+			<li>
+				<p class="question">Why is Input Shaping&reg; better than S-curves?</p>
+					S-curves and other complex acceleration profiles are based on the assumption that rapid changes in acceleration cause vibrations. Input Shaping&reg; technology makes it possible to make rapid changes in acceleration without exciting vibrations. S-curve vibration suppression is highly dependent on the move length, maximum acceleration and maximum velocity. Input Shaping&reg; yields consistent vibration suppression for any move length, at any velocity, and at any acceleration.
+			</li>
+			<li>
+				<p class="question">What if the system has multiple vibration frequencies?</p>
+					Input Shaping&reg; can also suppress multiple frequencies. From a practical perspective it is easier to start by measuring the lowest frequency vibration. Once an Input Shaper&trade; has been implemented for the lowest frequency, higher frequency vibrations become more apparent. There is no theoretical limit to the number of frequencies that can be suppressed using Input Shaping&reg;, however very few systems will require more than 3 frequencies.
+			</li>
+			</ul>
+		</div>
+		
+		<p id="copyright">Copyright Convolve, Inc. 2005 &mdash; 2007, All Rights Reserved.</p>
+	</div>
+
+	<div id="footer"></div>
+	
+</div>
+
+</body>
+</html>

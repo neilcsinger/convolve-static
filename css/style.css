@@ -1,0 +1,157 @@
+body {
+	background: url(../images/navigation.jpg) repeat-y;
+	font: 0.8764em "Trebuchet MS", Arial, Helvetica, Verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#container {
+	background: url(../images/top_left_corner.jpg) top left no-repeat;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 800px;
+}
+
+div#header {
+	background: url(../images/header.jpg) #000 left bottom no-repeat;
+	height: 125px;
+	left: 166px;
+	position: absolute;
+	text-indent: -10000px;
+	top: 0px;
+	width: 594px;
+}
+
+	div#header img { display: none }
+
+div#navigation {
+	background: url(../images/navigation.jpg) #c0d772 repeat-y;
+	color: #333;
+	left: 0px;
+	position: absolute;
+	top: 160px;	
+	width: 156px;
+}
+
+	div#navigation ul {
+		border-top: 1px solid #405a10;
+		list-style: none;
+		margin: 0 14px 15px 10px;
+		padding: 0;
+		_width: 105px;
+	}
+	
+	div#navigation li {
+		border-bottom: 1px solid #405a10;
+		margin: 0px;
+	}
+	
+	div#navigation li a {
+		background-color: #82b327;
+		border-left: 10px solid #6a931d;
+		border-right: 1px solid #000;
+		color: #fff;
+		display: block;
+		padding: 5px 5px 5px 8px;
+		text-decoration: none;
+		width: 100%;
+	}
+	
+	html>body div#navigation li a {
+		width: auto;
+	}
+	
+	div#navigation li a:hover {
+		border-left: 10px solid #444;
+		border-right: 1px solid #fff;
+		background-color: #646462;
+		color: #fff;
+	}
+
+div#content {
+	margin: 135px 0 0 170px;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+	width: 600px;
+}
+
+	p#slogan {
+		border-bottom: 1px solid #596924;
+		font-size: 1.152em;
+		font-style: italic;
+		font-weight: bold;
+	}
+	
+	p#design_tool {
+		background-color: #82b327;
+		border: 2px dotted #405a10;
+		padding: 10px;
+		text-align: center;
+		width: 200px;
+	}
+	
+	p#design_tool a {
+		color: #fff;
+	}
+	
+	p.video {
+		background-color: #82b327;
+		border: 2px dotted #405a10;
+		padding: 10px;
+		text-align: center;
+		width: 350px;
+	}
+	
+	p.video a {
+		color: #fff;
+	}
+	
+	div#float_right {
+		float: right;
+		padding: 0 100px 0 0px;
+		width: 259px;
+	}
+	
+	div#send_link {
+		background-color: #82b327;
+		border: 2px dotted #405a10;
+		font-size: 1.252em;
+		float: right;
+		margin: 15px 0 0 0;
+		padding: 20px 0px;
+		text-align: center;
+		width: 255px;
+	}
+	
+	div#send_link a {
+		color: #fff;
+	}
+	
+	div.subtitle {
+		font-size: 90%;
+		font-style: italic;
+		text-align: center;
+	}
+
+	p#copyright {
+		font-size: 0.7512em;
+		text-align: center;
+	}
+
+div#footer {
+	background: url(../images/footer.jpg) #000;
+	height: 120px;
+	width: 759px;
+}
+
+div.spacer {
+	clear: both;
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}

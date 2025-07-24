@@ -1,0 +1,24 @@
+div#faq {
+	width: 550px;
+}
+
+	div#faq ul {
+		background: #d0f1d7;
+		list-style: none;
+		margin: 0 14px 10px 10px;
+		padding: 1px 10px 10px 10px;
+	}
+	
+	p.question {
+		font-weight: bold;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	
+	div#faq ul li {
+		border: 1px outset #349d4a;
+		margin: 10px 0 0 0;
+		padding: 10px;
+	}
+		
+		div#faq ul li:last-child { border-bottom: none }
